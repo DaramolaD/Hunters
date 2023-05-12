@@ -1,0 +1,129 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url("./assets/lexend/static/Lexend-Regular.ttf");
+    font-weight: regular;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lexend";
+    src: url("./assets/lexend/static/Lexend-Medium.ttf");
+    font-weight: regular;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lexend";
+    src: url("./assets/lexend/static/Lexend-Bold.ttf");
+    font-weight: regular;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lexend";
+    src: url("./assets/lexend/static/Lexend-SemiBold.ttf");
+    font-weight: regular;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Lexend", sans-serif;
+}
+
+/* RESET */
+a {text-decoration: none;}
+li {list-style: none;}
+
+button, textarea, input {
+    border: none;
+    outline: none;
+}
+
+/* RESUABLES */
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+img {width: 100%;}
+.flex {display: flex;}
+.flex-space {
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.flex-align {align-items: center;}
+.flex-column {flex-direction: column;}
+.flex-1 {flex: 1 1}
+
+.grid {display: grid;}
+.grid-2fr {grid-template-columns: 1fr 1fr;}
+.btn-g {
+    color: #270909;
+    background-color: #10B981;
+    border-radius: 30px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.padd-120 {padding-block-start: 120px;}
+.padd-80 {padding-block-start: 80px;}
+.para_1 {
+    color: #626687;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 24px;
+    font-weight: 400;
+}
+.gap_5 {gap: 50px;}
+
+/* COLOR */
+
+.blue-cl {
+    color: #1B1C57;
+}
+
+
+
+/* headings */
+.h2-h {
+    color: #F59E0B;
+    font-size: 14px;
+    font-weight: medium;
+}
+.h2-h span {
+    display: inline-block;
+    width: 32px;
+    height: 1px;
+    background-color: #F59E0B;
+    margin-inline-end: 20px;
+}
+.h3-h {
+    font-size: 32px;
+    color: #1B1C57;
+    font-weight: 600;
+}
+
+
+.agent img {
+    width: 40px;
+}
+.agent-details {padding-inline-start: 20px;}
+.agent-details h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E1735;
+}
+.agent-details p {
+    color: #888B97;
+    font-size: 12px;
+    font-weight: 500;
+}

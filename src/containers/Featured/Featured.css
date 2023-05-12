@@ -1,0 +1,95 @@
+::-webkit-scrollbar {height: 2em}
+::-webkit-scrollbar-track {background-color: red;
+}
+.featured {padding-bottom: 10px;}
+.featured .container {gap: 40px}
+.headings-cont {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px 50px;
+}
+.house-list {gap: 30px;}
+.house-list .house-items:hover {background-color: #D1FAE5;}
+.house-list  a {color: #888B97;}
+.house-list  a:hover {color: #10B981;}
+
+.house-list .active{background-color: #D1FAE5;}
+.house-list .active a {color: #10B981;}
+.house-list .house-items {
+    border: 1px solid #E0E3EB;
+    padding: 10px 15px;
+    border-radius: 20px;
+    gap: 5px;
+    transition: .25s all ease-in-out;
+}
+.house-items a {
+    font-size: 16px;
+    font-weight: 500;
+}
+.house-items img {
+    width: 18px;
+}
+
+.buttons {gap: 10px;}
+.buttons img {
+    width: 30px;
+    height: 30px;
+}
+.buttons .arrow-2 {background-color: #E0E3EB;}
+
+.building-listings {
+    gap: 20px;
+    overflow: auto;
+    /* overflow-x: scroll; */
+    padding-block-end: 30px;
+;}
+
+.building-items {
+    max-width: 300px;
+    min-width: 225px;
+}
+
+.img-conts {position: relative;}
+.flow-cont {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+.flow-cont p {
+    font-size: 14px;
+    font-weight: 500;
+}
+.flow-cont img {
+    width: 12px;
+    height: 12px;
+}
+.pop-conts {background-color: #FEE2E2;}
+.pop {color: #EF4444}
+.hou {color: #1D4ED8}
+
+.building-text-conts {padding-block: 10px;}
+.building-text-conts h5 {
+    font-size: 18px;
+    color: #0E1735;
+    font-weight: 500;
+    line-height: 32px;
+}
+.building-text-conts p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.amount {color: #3C4563}
+.building-items {display: grid;}
+.building-items .agent {align-items: end;}
+
+
+@media screen and (max-width: 900px){
+    .realSell .container {flex-direction: column;}
+    .house-items a {font-size: 14px;}
+    .house-items img {width: 12px;}
+    .house-list {gap: 10px;}
+}

@@ -1,0 +1,50 @@
+.footer {padding-block-end: 50px;}
+footer .container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+}
+.brand .logo {
+    width: 50px;
+    height: 50px;
+}
+.brand .socials img {
+    width: 20px;
+    height: 20px;
+}
+.brand .socials .fb {width: 15px;}
+.brand-p{
+    font-size: 14px;
+    color: #626687;
+    font-weight: 400;
+}
+.footer-list h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0E1735;
+}
+.footer-items a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888B97;
+}
+.gap-1 {gap: 10px;}
+.gap-2 {gap: 20px;}
+.footer-list {
+    max-width: 70%;
+    width: 100%;
+    right: 0px;
+    position: relative;
+    justify-self: flex-end;
+}
+
+@media screen and (max-width: 900px){
+    footer .container {grid-template-columns: repeat(2, 1fr);}
+    .footer-list {max-width: 100%;}
+}
+@media screen and (max-width: 500px){
+    .agent-cont {
+        flex-direction: column;
+        gap: 40px;
+    }
+    footer .container {grid-template-columns: 1fr;}
+}

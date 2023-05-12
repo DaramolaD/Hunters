@@ -1,0 +1,91 @@
+
+.gradient {
+    background: center url(../../assets/subRec.png) no-repeat ;
+    background-size: cover;
+    gap: 50px;
+    border-radius: 25px;
+    padding: 50px 10px;
+    position: relative;
+}
+.gradient .input-cont {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    max-width: 450px;
+    width: 100%;
+    z-index: 2;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: center;
+    padding-block-start: 20px;
+}
+.gradient h4 {
+    font-size: 32px;
+    color: #1B1C57;
+    font-family: 600;
+    z-index: 2;
+}
+.gradient .input-cont input {  width: 60%;}
+.gradient .input-cont img {
+    width: 20px;
+    position: relative;
+}
+.gradient .input-cont button {color: #fff;}
+.gradient .imgs-conts img {
+    max-width: fit-content;
+    position: absolute;
+}
+.gradient .imgs-conts img:nth-child(1) {
+    top: 10%;
+    right: 20%;
+}
+.gradient .imgs-conts img:nth-child(2) {
+    top: 10px;
+    right: 20px;
+}
+.gradient .imgs-conts img:nth-child(3) {
+    bottom: 0px;
+    left: 20px;
+}
+.gradient .imgs-conts img:nth-child(4) {
+    top: 50%;
+    right: 20%;
+}
+.gradient .imgs-conts img:nth-child(5) {
+    bottom: 0px;
+    left: 50%;
+}
+.gradient .imgs-conts img:nth-child(6) {
+    top: 50%;
+    left: 20%;
+}
+.gradient .imgs-conts img:nth-child(7) {
+    bottom: 0px;
+    right: 20px;
+}
+.gradient .imgs-conts img:nth-child(8) {
+    top: 10px;
+    left: 20px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .gradient h4 {font-size: 28px;}
+    .gradient .imgs-conts img:nth-child(1),
+    .gradient .imgs-conts img:nth-child(6),
+    .gradient .imgs-conts img:nth-child(4)  {
+        display: none;
+    }
+    /* .gradient .imgs-conts img:nth-child(4) {top: 0px; bottom: px;} */
+}
+@media screen and (max-width: 768px) {
+    .gradient h4 {font-size: 20px;}
+    .gradient .imgs-conts img:nth-child(8),
+    .gradient .imgs-conts img:nth-child(7) {width: 50px;}
+}
+@media screen and (max-width: 500px) {
+    .gradient .imgs-conts img:nth-child(2),
+    .gradient .imgs-conts img:nth-child(7),
+    .gradient .imgs-conts img:nth-child(8){display: none;}
+    .gradient .input-con {padding-block-start: 20px;}
+}

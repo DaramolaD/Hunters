@@ -1,0 +1,58 @@
+
+.realSell {position: relative;}
+.realSell .container {position: relative;}
+.house_detial {
+    margin-top: 20px;
+}
+.house_detial h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.details_items {gap: 10px;}
+.details_items p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3C4563;
+}
+.details_items img {
+    width: 20px;
+    height: 20px;    
+}
+.house_detial .detail_list {
+    gap: 30px 10px;
+    margin-top: 15px;
+    max-width: 90%;
+    width: 100%;
+}
+.agent-cont {
+    margin-top: 30px;
+    border: 1px solid #F0F3FD;
+    padding-top: 30px;
+    max-width: 450px;
+}
+.contact-cont {
+    background-color: #10B981;
+    border-radius: 30px;
+    padding: 10px 15px;
+    max-width: fit-content;
+}
+.contact-cont img {
+    width: 18px;
+}
+.contact-cont p {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.bg_color {
+    position: absolute;
+    background: linear-gradient(180deg, #FF9882 0%, #FFFA82 100%);
+    filter: blur(123px);
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    top: 10px;
+    z-index: -1;
+}
